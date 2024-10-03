@@ -1,0 +1,34 @@
+# Xcode
+# Exclude user-specific settings and data
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+
+# Exclude derived data and build files
+DerivedData/
+build/
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Exclude workspace settings
+*.xcworkspace/
+
+# Swift Package Manager
+# Exclude build artifacts and workspace data
+.build/
+.swiftpm/xcode/
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Xcode project temp files
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Signing certificates and provisioning profiles
+*.mobileprovision
+*.provisionprofile
+*.xcconfig

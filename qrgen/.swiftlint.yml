@@ -1,0 +1,4 @@
+trailing_comma:
+    required: true
+    mandatory_comma: true
+    severity: error
