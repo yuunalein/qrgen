@@ -1,4 +1,11 @@
+opt_in_rules:
+    - indentation_width
+
 trailing_comma:
     required: true
     mandatory_comma: true
+    severity: error
+
+indentation_width:
+    width: 4
     severity: error
